@@ -10,5 +10,5 @@ app.use('/', express.static(`${__dirname}/../client`));
 
 server.listen(config.PORT, () => {
   socket(server);
-  console.log('Server is listening at :', config.PORT);
+  console.log('Server is listen to :', config.PORT);
 });
